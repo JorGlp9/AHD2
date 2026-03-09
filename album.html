@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Galeria Intertecshop</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+
+
+
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Galeria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/album.html">Galeria</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/dashword.html">Iniciar Sesion</a>
+            </li>           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" /></svg>
+          <strong>Album</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="font-weight-light">Nuestros Productos</h1>
+          <p class="lead text-muted">Explora nuestra colección de smartphones, audífonos y accesorios tecnológicos 
+        diseñados para mejorar tu experiencia digital.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Ver ofertas</a>
+            <a href="#" class="btn btn-secondary my-2">Más Productos</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/latam/common/launch/2025/12-11/plp/phones/mate-series/shelf-huawei-mate-x7.png" class="img-fluid" alt="">
+
+              <div class="card-body">
+                <h2>HUAWEI Mate X7</h2>
+                <p class="card-text">Smartphone plegable de alta gama con pantalla flexible, potente rendimiento y cámaras avanzadas para fotografía profesional.</p>
+                <h3>Q.12,499.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+            <img src="https://pdaplaza.com/cdn/shop/files/buy-xiaomi-17-ultra-professional-photography-kit-white-546.webp?v=1767131487&width=800" 
+            class="img-fluid"
+            alt="Celular">
+
+              <div class="card-body">
+                <h2>Xiaomi 17 Ultra Kit Pro de Fotografia</h2>
+                <p class="card-text">Teléfono con sistema de cámaras avanzado para fotografía profesional.</p>
+                <h3>Q.15,999.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="https://cdnx.jumpseller.com/cibertech/image/64693643/resize/1500/1500?1750350650" 
+            class="img-fluid"
+            alt="Audifonos">
+
+              <div class="card-body">
+                <h2>Honor Choice Earbuds Clip Negros</h2>
+                <p class="card-text">Audífonos inalámbricos con sonido claro y batería duradera.</p>
+                <h3>Q.499.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://img.pacifiko.com/PROD/resize/1/500x500/OGE1NmRmNj.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>Huawei Watch Fit 3</h2>
+                <p class="card-text">Smartwatch con monitoreo de salud y actividad física.</p>
+                <h3>Q.1,225.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://cdn.kemik.gt/2023/03/B08LMJV8X6-XIAOMI-1200x1200-2-1-526x526.-500x500.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>Power Bank Xiaomi 20000mAh</h2>
+                <p class="card-text">Batería portátil con carga rápida para dispositivos móviles.</p>
+                <h3>Q.185.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://img.pacifiko.com/PROD/resize/1/500x500/B08SJ5Z8JL.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>Mouse Gamer Redragon</h2>
+                <p class="card-text">Mouse de alta precisión ideal para gaming y trabajo.</p>
+                <h3>Q.230.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://img.pacifiko.com/PROD/resize/1/500x500/YWVjM2EzMT.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>Teclado Mecánico Redragon</h2>
+                <p class="card-text">Teclado retroiluminado con switches mecánicos.</p>
+                <h3>Q.391.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://img.pacifiko.com/PROD/resize/1/1000x1000/MjA3ZTE5MG_3.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>Samsung Galaxy A55</h2>
+                <p class="card-text">Smartphone con gran batería y cámara de alta calidad.</p>
+                <h3>Q.2,297.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://cdn.kemik.gt/2023/05/JBLT520BTBLKAM-JBL-1200X1200-01.jpg" 
+            class="img-fluid"
+            alt="Smart Watck">
+
+              <div class="card-body">
+                <h2>JBL Tune 520BT</h2>
+                <p class="card-text">Audífonos Bluetooth con sonido potente y gran autonomía.</p>
+                <h3>Q.297.00</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-primary my-2">Comprar</button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-right mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+      <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+          href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

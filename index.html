@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Intertecshop</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+  <link rel="stylesheet" href="carousel.css">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="carousel.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">InterShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/album.html">Galeria</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/dashword.html">Iniciar Sesion</a>
+            </li>           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://tiendahonorgt.com/wp-content/uploads/2026/03/1280-x-445-BANER-PRINCIPAL-Magic8-Pro.png" class="img-fluid" alt="celular" >
+
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1 class="text-dark">Ofertas en Tecnología</h1>
+              <p class="text-dark">Descubre los mejores celulares, audífonos y accesorios al mejor precio.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Registrate Hoy</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-watch-5/pc/41f7422d635a28113000438c1d8ae863.jpg?f=webp"  class="img-fluid"  alt="Xiaomi Watch">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="text-dark">Xiaomi Watch 5</h1>
+              <p class="text-dark">Aproveche al máximo los momentos que importan con una plataforma de reloj inteligente que lo mantiene conectado con su salud y con las personas y la información que más le importan.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Aprende Más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+           <img src="https://ishop.gt/cdn/shop/files/Airpods_PDP_Image_Position-1__LAES_550x_129647b3-c341-444c-855e-1a39291d903f.webp?v=1714763292&width=550"
+        class="img-fluid"
+       alt="Audifonos">
+
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1 class="text-dark">Audífonos Inalámbricos</h1>
+              <p class="text-dark" >Libertad total para escuchar música, llamadas claras y gran autonomía de batería.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver producto</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="https://i02.appmifile.com/88_operatorx_operatorx_opx/12/02/2026/68252d813d8e902c83091a9a15e1ba7a.png?thumb=1&w=600&f=webp&q=85"
+        class="img-fluid"
+       alt="Audifonos">
+
+          <h2>Xiaomi 17 Ultra Kit Pro de Fotografia</h2>
+          <p>Captura imágenes profesionales con el potente sistema de cámaras del Xiaomi 17 Ultra y su exclusivo kit de fotografía.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="https://tiendahonorgt.com/wp-content/uploads/2025/09/HONOR-Choice-Earbuds-Clip.png" 
+          class="img-fluid"  alt="Audifonos Inalámbricos">
+
+          <h2>Honor Choice Earbuds Clip Negros</h2>
+          <p>Audífonos inalámbricos con sonido claro, diseño cómodo y batería de larga duración.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-gt-runner-2/imgs/huawei-watch-gt-runner-2-key-vision-2.png" class="img-fluid" alt=" Smarth Watch">
+
+          <h2>HUAWEI WATCH GT Runner 2 </h2>
+          <p>Hasta 32 horas de entrenamiento al aire libre, incluso con la función de posicionamiento preciso activada.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Galaxy S26 Ultra 5G 512GB
+          </h2>
+          <p class="lead">Pantalla de 6.9” con SPen integrado y pantalla de Privacidad.
+Batería de 5,000 mAh de larga duración y carga super rápida de 60W.
+Sistema de cámaras mejorado para tomas más brillantes con video Nightography.
+Photo Assist y Estudio Creativo integrado para desbloquear tu creatividad.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/m/3/m3_set-cut-all_01_3.png" class="img-fluid" alt="">
+            
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">OnePlus 15</h2>
+          <p class="lead">Equipado con el último Snapdragon® 8 Elite Gen 5¹, el teléfono inteligente más rápido del mundo con RAM-LPDDR5X Ultra+ y ROM UFS 4.1, tus aplicaciones se abren instantáneamente y los juegos de 120 FPS están siempre activos.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="https://www.oneplus.com/content/dam/oneplus/na/2025/na/home/01-28-2026/Home1515RMobile1.jpg" alt="Celular" class="img-fluid">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Pixel 10 Pro	Pixel 10 Pro XL</h2>
+          <p class="lead">La IA más avanzada en Pixel.
+Fotos y vídeos de la mejor calidad.
+Chip de última generación para el máximo rendimiento de la IA.
+Diseño impecable en dos tamaños.
+7 años de nuevas funciones y actualizaciones</p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://lh3.googleusercontent.com/tj4SW73b7OsidTNijXYIDwbhufBRp_CO4v1oGbuVMeRtsEdDvyiZFM7tnRyci-j1bEeAe_8Eektt2Aq5_6AL0YkgOX92PmQtAA=s2400-w2400-e365-rw-v0-nu" alt="" class="img-fluid">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2021-2026 InterShop. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos y condiciones</a></p>
+    </footer>
+  </main>
+
+
+
+</body>
+
+</html>
